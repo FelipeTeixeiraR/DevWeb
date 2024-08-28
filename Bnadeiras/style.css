@@ -158,21 +158,23 @@ body{
         height: 100px;
     }
     #bfx2{
-        width:100px;
-        height:100px;
+        position: absolute;
+        width:70px;
+        height:70px;
         background:#e5ff00;
         margin-top:50px;
-        margin-left:50px;
-         /* Rotação */  
+        margin-left:41px; 
          transform: rotate(-45deg);  
+         margin-top: -85px;
+
       }
     #bfx3{
         position: absolute;
-        background-color: rgb(233, 247, 36);
-        width: 150px;
-        height: 20px;
-        margin-top: -60px;
-        
-       
-    }
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(46, 95, 255);
+    margin-left: 46px;
+    margin-top: -80px;
+    }  
 }
