@@ -1,0 +1,35 @@
+div {
+    width: 400px;
+    height: 100px;
+    position: absolute;
+}
+
+
+#top-left {
+    background-color: green;
+    top: 0;
+    left: 0;
+}
+
+
+#bottom-left {
+    background-color: blue;
+    bottom: 0;
+    left: 0;
+}
+
+
+#top-right {
+    background-color: red;
+    top: 0;
+    right: 0;
+}
+
+
+#bottom-right {
+    background-color: green;
+    bottom: 0;
+    right: 0;
+}
+
+

@@ -1,0 +1,69 @@
+div {
+    width: 200px;
+    height: 100px;
+}
+
+/* Configurando os containers principais */
+#top, #middle, #bottom {
+    width: 100vw;
+    height: 200px;
+    position: relative;
+}
+
+/* Cores de fundo para os containers principais */
+#top {
+    background-color: blue;
+}
+
+#middle {
+    background-color: green;
+}
+
+#bottom {
+    background-color: red;
+}
+
+/* Estilizando as seções internas com posicionamento absoluto */
+#top-left, #top-right, #middle-left, #middle-right, #bottom-left, #bottom-right {
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    border: 3px solid black;
+}
+
+/* Configurando a posição dos elementos */
+#top-left {
+    background-color: green;
+    right: 20%;
+    bottom: 85%;
+}
+
+#top-right {
+    background-color: red;
+    left: 20%;
+    bottom: 85%;
+}
+
+#middle-left {
+    background-color: red;
+    right: 20%;
+    bottom: 65%;
+}
+
+#middle-right {
+    background-color: blue;
+    left: 20%;
+    bottom: 65%;
+}
+
+#bottom-left {
+    background-color: blue;
+    right: 20%;
+    bottom: 45%;
+}
+
+#bottom-right {
+    background-color: green;
+    left: 20%;
+    bottom: 45%;
+}
