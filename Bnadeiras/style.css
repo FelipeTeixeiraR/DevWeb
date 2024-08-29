@@ -1,31 +1,46 @@
 body{
     background-color: rgb(206, 206, 206);
+    margin-left: 45%;
+}
+
+#Titulo{
+    
+    font-size: 40px;
+    margin-left: -40px;
+    
 }
 #italia{
     border: 1px solid black;
-    width: 151px;
+    width: 150px;
     #ifx1{
         background-color: rgb(2, 184, 93);
         width: 50px;
         height: 100px;
     }
     #ifx2{
-        position: absolute;
+        position: relative;
         background-color: white;
         width: 50px;
         height: 100px;
-        left: 60px;
-        top: 9px;
+        left: 50px;
+        top: -100px;
     }
     #ifx3{
-        position: absolute;
+        position: relative;
         background-color: rgb(252, 56, 56);
         width: 50px;
         height: 100px;
-        left: 110px;
-        top: 9px;
+        margin-left: 100px;
+        margin-top: -200px;
     }
 }
+
+#italia:hover{
+    transition: width 0.28s ease-in-out;
+    width: 450px;
+    
+}
+
 #polonia{
     border: 1px solid black;
     width: 150px;
