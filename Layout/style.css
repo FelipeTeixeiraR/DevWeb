@@ -49,3 +49,11 @@ header{
     text-align: center;
     padding: 20px;
 }
+@media screen and(max-width:600px)
+{
+    .principal, .conteudo{
+        width: 100%;
+        flex-direction: column;
+        padding: 0px;
+    }
+}
