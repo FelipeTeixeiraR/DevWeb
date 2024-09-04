@@ -28,3 +28,24 @@ header{
     color: red;
     background-color: #1d1d1d;
 }
+.principal{/* display flex deixa o conteudo flexivel cupando uma liha disposto em colunas*/
+    display: flex;
+    flex-direction: row;
+}
+.conteudo{
+    margin: 15px 2px 25px 2px;
+    background-color: gainsboro;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    transition:  0.2s ease-in-out;
+}
+.conteudo:hover{
+    transform: scale(1.1); 
+}
+.rodape{
+    color: darkgray;
+    font-size: 12px;
+    text-align: center;
+    padding: 20px;
+}
