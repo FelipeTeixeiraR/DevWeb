@@ -20,4 +20,15 @@ body{
     position: absolute;
     z-index: 2;
 }
+#Home{
+    position: absolute;
+    color: white;
+    z-index: 3;
+    font-size: 30px;
+    margin-left: 73%;
+    margin-top: -15px;
+}
+Home:hover{
+    transition: color purple 0,2s;
+}
 
