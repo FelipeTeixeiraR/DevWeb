@@ -1,11 +1,13 @@
+
 body{
-   
     background-color: #191919;
-    overflow-x: hidden;
-    overflow-y: hidden;
     background-image: url(./Imgs/v1016-b-09.jpg);
     background-size: 250%;
 }
+::-webkit-scrollbar {
+    width: 0px;
+}
+
 #UperBar{
     position: absolute;
     width: 100%;
@@ -116,4 +118,25 @@ body{
 }
 #DetailTopicos:hover{
     visibility: visible;
+}
+#HtmlImg{
+    z-index: 2;
+    position: absolute;
+    width: 12%;
+    left: 50%; 
+    transform: translateX(-50%);
+    margin-top: 8%;
+    
+}
+#HtmlBox{
+    z-index: 1;
+    position: absolute;
+    width: 1000px;
+    height: 800px;
+    background-color: #ffffffab;
+    margin-top: 15%;
+    border-radius: 10px;
+    left: 50%; 
+    transform: translateX(-50%);
+    box-shadow: #000000  7px 5px 10px ;
 }
