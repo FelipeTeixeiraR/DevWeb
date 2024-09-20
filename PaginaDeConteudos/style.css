@@ -3,7 +3,8 @@ body{
     background-color: #191919;
     overflow-x: hidden;
     overflow-y: hidden;
-   background-image: url(./Imgs/v1016-b-09.jpg);
+    background-image: url(./Imgs/v1016-b-09.jpg);
+    background-size: 250%;
 }
 #UperBar{
     position: absolute;
@@ -11,12 +12,13 @@ body{
     height: 15%;
     background-color: #0a0a0a;
     z-index: 2;
-    margin-top: -20px;
+    margin-top: -10px;
     margin-left: -8px;
     box-shadow: 8px 8px 8px black;
 }
 #logo{
-    margin-top: -50px;
+    width: 40%;
+    margin-top: 0%;
     position: absolute;
     z-index: 2;
 }
@@ -24,11 +26,94 @@ body{
     position: absolute;
     color: white;
     z-index: 3;
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 73%;
-    margin-top: -15px;
+    margin-top: 1.7%;
+    text-shadow: 5px 5px 5px solid purple;
+    transition: color 0.3s ease; 
+    cursor: default;
+    
 }
-Home:hover{
-    transition: color purple 0,2s;
+#Home:hover{
+    color: #8c52ff;
+    text-shadow: rgb(38, 38, 38) 2px 2px 2px ;
+
+}
+#Sobre{
+    position: absolute;
+    color: white;
+    z-index: 3;
+    font-size: 24px;
+    margin-left: 81%;
+    margin-top: 1.8%;
+    text-shadow: 5px 5px 5px solid purple;
+    transition: color 0.3s ease; 
+    cursor: default;
+    
+}
+#Sobre:hover{
+    color: #8c52ff;
+    text-shadow: rgb(38, 38, 38) 2px 2px 2px ;
+
+}
+#Topicos{
+    position: absolute;
+    color: white;
+    z-index: 3;
+    font-size: 24px;
+    margin-left: 89%;
+    margin-top: 1.8%;
+    text-shadow: 5px 5px 5px solid purple;
+    transition: color 0.3s ease; 
+    cursor: default;
+    
+}
+#Topicos:hover{
+    color: #8c52ff;
+    text-shadow: rgb(38, 38, 38) 2px 2px 2px ;
+}
+#setaT{
+    cursor: default;
+    font-size:25px;
+    color: white;
+    position: absolute;
+    z-index: 4;
+    margin-left: 95%;
+    transition: transform 0.5s ease;
+}
+#Topicos:hover ~ #setaT{
+    transform: rotate(180deg);
+}
+#setaT:hover{
+    transform: rotate(180deg);
 }
 
+#DetailTopicos{
+    visibility: hidden;
+    display: block;
+    position: absolute;
+    z-index: 4;
+    background-color: white;
+    width: 120px;
+    height: 150px;
+    margin-top: 3.8%;
+    margin-left: 88.2%;
+    border: #000000 2px solid;
+    border-radius: 10px;
+}
+#DetailTopicos .line {
+    display: block;
+    text-align: center;
+    border-bottom: 1.5px solid black;
+    padding-bottom: 13px;
+    margin-bottom: 10px; 
+}
+#Topicos:hover ~ #DetailTopicos{
+    visibility: visible;
+}
+#setaT:hover ~ #DetailTopicos{
+    visibility: visible;
+}
+#DetailTopicos:hover{
+    visibility: visible;
+}
