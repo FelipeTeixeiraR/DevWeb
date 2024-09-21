@@ -10,10 +10,11 @@ body{
 
 #UperBar{
     position: absolute;
+    position: fixed;
     width: 100%;
     height: 15%;
     background-color: #0a0a0a;
-    z-index: 2;
+    z-index: 9;
     margin-top: -10px;
     margin-left: -8px;
     box-shadow: 8px 8px 8px black;
@@ -22,12 +23,14 @@ body{
     width: 40%;
     margin-top: 0%;
     position: absolute;
-    z-index: 2;
+    position: fixed;
+    z-index: 9;
 }
 #Home{
     position: absolute;
+    position: fixed;
     color: white;
-    z-index: 3;
+    z-index: 10;
     font-size: 25px;
     margin-left: 73%;
     margin-top: 1.7%;
@@ -43,8 +46,9 @@ body{
 }
 #Sobre{
     position: absolute;
+    position: fixed;
     color: white;
-    z-index: 3;
+    z-index: 10;
     font-size: 24px;
     margin-left: 81%;
     margin-top: 1.8%;
@@ -60,8 +64,9 @@ body{
 }
 #Topicos{
     position: absolute;
+    position: fixed;
     color: white;
-    z-index: 3;
+    z-index: 10;
     font-size: 24px;
     margin-left: 89%;
     margin-top: 1.8%;
@@ -79,7 +84,8 @@ body{
     font-size:25px;
     color: white;
     position: absolute;
-    z-index: 4;
+    position: fixed;
+    z-index: 10;
     margin-left: 95%;
     transition: transform 0.5s ease;
 }
@@ -94,21 +100,24 @@ body{
     visibility: hidden;
     display: block;
     position: absolute;
-    z-index: 4;
+    position: fixed;
+    z-index: 10;
     background-color: white;
-    width: 120px;
-    height: 150px;
+    width: 110px;
+    height: 220px;
     margin-top: 3.8%;
     margin-left: 88.2%;
     border: #000000 2px solid;
     border-radius: 10px;
+    
 }
 #DetailTopicos .line {
     display: block;
-    text-align: center;
+    border-radius: 7px;
     border-bottom: 1.5px solid black;
-    padding-bottom: 13px;
-    margin-bottom: 10px; 
+    
+    margin-left: 28%;
+    
 }
 #Topicos:hover ~ #DetailTopicos{
     visibility: visible;
@@ -135,6 +144,48 @@ body{
     height: 800px;
     background-color: #ffffffab;
     margin-top: 15%;
+    border-radius: 10px;
+    left: 50%; 
+    transform: translateX(-50%);
+    box-shadow: #000000  7px 5px 10px ;
+}
+#CSSImg{
+    z-index: 2;
+    position: absolute;
+    width: 18%;
+    left: 50%; 
+    transform: translateX(-50%);
+    margin-top: 88%;
+    
+}
+#CSSBox{
+    z-index: 1;
+    position: absolute;
+    width: 1000px;
+    height: 800px;
+    background-color: #ffffffab;
+    margin-top: 100%;
+    border-radius: 10px;
+    left: 50%; 
+    transform: translateX(-50%);
+    box-shadow: #000000  7px 5px 10px ;
+}
+#JSImg{
+    z-index: 2;
+    position: absolute;
+    width: 18%;
+    left: 50%; 
+    transform: translateX(-50%);
+    margin-top: 88%;
+    
+}
+#JSBox{
+    z-index: 1;
+    position: absolute;
+    width: 1000px;
+    height: 800px;
+    background-color: #ffffffab;
+    margin-top: 100%;
     border-radius: 10px;
     left: 50%; 
     transform: translateX(-50%);
