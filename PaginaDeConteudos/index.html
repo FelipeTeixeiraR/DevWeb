@@ -23,10 +23,100 @@
     </div>
     <img id="HtmlImg" src="./Imgs/image-removebg.png" alt="">
     <div id="HtmlBox">
+        <p>
+            <h2>Fundamentos de HTML</h2>
+                <ul>
+                    <li><strong>Hypertexto</strong>: Sistema de navegação que usa links.</li>
+                    <li><strong>HTTP</strong>: Protocolo para transferência de dados.</li>
+                    <li><strong>WWW</strong>: World Wide Web, rede global de documentos.</li>
+                </ul>
+            <h2>Tags de Formatação</h2>
+                <ul>
+                    <li><strong>&lt;b&gt;</strong>: Negrito.</li>
+                    <li><strong>&lt;i&gt;</strong>: Itálico.</li>
+                    <li><strong>&lt;u&gt;</strong>: Sublinhado.</li>
+                    <li><strong>&lt;strong&gt;</strong>: Negrito semântico.</li>
+                    <li><strong>&lt;em&gt;</strong>: Itálico semântico.</li>
+                </ul>
+            <h2>Cabeçalhos e Parágrafos</h2>
+             <p>As tags de <strong>&lt;h1&gt;</strong> até <strong>&lt;h6&gt;</strong> são usadas para definir títulos, e a tag <strong>&lt;p&gt;</strong> define parágrafos.</p>
+            <h2>Imagens e Listas</h2>
+             <p>Imagens são inseridas com <strong>&lt;img&gt;</strong> e listas com <strong>&lt;ul&gt;</strong> ou <strong>&lt;ol&gt;</strong> para listas não ordenadas e ordenadas, respectivamente.</p>
+            <h2>Hyperlinks</h2>
+                <p>Links são criados com a tag <strong>&lt;a href="url"&gt;Texto do Link&lt;/a&gt;</strong>.</p>
+            <h2>Tabelas</h2>
+             <p>Tabelas são criadas com <strong>&lt;table&gt;</strong>, linhas com <strong>&lt;tr&gt;</strong>, e células com <strong>&lt;td&gt;</strong> e <strong>&lt;th&gt;</strong>.</p>
+            <h2>Multimídia</h2>
+             <p>Vídeos e áudios são inseridos com <strong>&lt;video&gt;</strong> e <strong>&lt;audio&gt;</strong>.</p>
+            <a href="#"><h2>Clique aqui para ver um tutorial sobre flexbox e grid</h2></a>
+    
+       
     <img id="CSSImg" src="./Imgs/cssLogo.png" alt="">
     <div id="CSSBox">
+        <h2>O que é CSS</h2>
+            <p>CSS é usado para estilizar elementos HTML, <br> como layout, cores e fontes.</p>
+        <h2>Classes no CSS</h2>
+            <p>Classes são definidas no HTML com <strong>class="nome_da_classe"</strong> e estilizadas no CSS com <strong>.nome_da_classe { propriedade: valor; }</strong>.</p>
+        <h2>Estilizar Fontes e Cores</h2>
+          <p>As fontes podem ser estilizadas com <strong>font-family</strong>, <strong>font-size</strong>, e <strong>color</strong>.</p>
+        <h2>Mudar o Tamanho de Imagens</h2>
+            <p>O tamanho de imagens pode ser ajustado com <strong>width</strong> e <strong>height</strong>.</p>
+        <h2>Estilizar Elementos Padrões</h2>
+         <p>Elementos como <strong>body</strong> podem ser estilizados com <strong>background-color</strong>, <strong>font</strong>, e outras propriedades CSS.</p>
+        <h2>Seletores no CSS</h2>
+         <p>Seletores podem ser <strong>.classe</strong>, <strong>#id</strong> ou o próprio <strong>elemento</strong>.</p>
+        <h2>Seletores Personalizados</h2>
+            <p>Use pseudo-classes como <strong>:hover</strong> ou pseudo-elementos como <strong>::before</strong> e <strong>::after</strong>.</p>
+        <h2>Parallax</h2>
+          <p>O efeito parallax pode ser feito com <strong>background-attachment: fixed</strong> em uma imagem de fundo.</p>
     <img id="JSImg" src="./Imgs/JSLogo.png" alt="">
     <div id="JSBox">
+        <p>
+            <h2>História do JavaScript</h2>
+                <p>O JavaScript foi criado por Brendan Eich em 1995 para tornar as páginas da web interativas. Inicialmente, era chamado de "Mocha", depois "LiveScript", e finalmente "JavaScript". Hoje, é amplamente utilizado tanto no front-end quanto no back-end de aplicações web.</p>
+            
+            <h2>Como Usar JavaScript no HTML</h2>
+              <p>Você pode inserir JavaScript diretamente dentro de um arquivo HTML usando a tag <strong>&lt;script&gt;</strong>. Por exemplo:</p>
+                        <pre><code>
+    &lt;script&gt;
+            alert('Olá, mundo!');
+    &lt;/script&gt;
+                        </code></pre>
+                        <p>Esse código exibe uma caixa de alerta quando a página é carregada.</p>
+                        
+                        <h2>Exemplo de JavaScript Externo</h2>
+                        <p>Para manter seu código JavaScript separado, você pode criar um arquivo .js e vinculá-lo ao HTML:</p>
+                        <pre><code>     &lt;script src="meuArquivo.js"&gt;&lt;/script&gt;</code></pre>
+            
+            <h2>Variáveis e Tipos de Dados</h2>
+                <p>Em JavaScript, você pode declarar variáveis com <strong>var</strong>, <strong>let</strong>, ou <strong>const</strong>. Exemplo:</p>
+                            <pre><code>  
+    let nome = 'João';
+    const idade = 30;
+                </code></pre>
+                            
+            <h2>Funções em JavaScript</h2>
+                <p>Funções são blocos de código reutilizáveis. Exemplo de função que soma dois números:</p>
+                            <pre><code>
+    function somar(a, b) {
+    return a + b;
+    }
+    console.log(somar(5, 3)); // Saída: 8
+                </code></pre>
+            
+            <h2>Manipulação do DOM</h2>
+                <p>Com JavaScript, você pode manipular os elementos da página HTML, como alterar o texto de um parágrafo:</p>
+    <pre><code>
+    document.getElementById('meuParagrafo').innerText = 'Texto alterado';
+    </code></pre>
+            
+            <h2>Eventos em JavaScript</h2>
+                <p>Você pode capturar eventos, como cliques de botões, e reagir a eles. Exemplo:</p>
+                            <pre><code>
+    document.getElementById('meuBotao').addEventListener('click', function() {
+    alert('Botão clicado!');
+    });
+                </code></pre>
 
     </div>
 </body>

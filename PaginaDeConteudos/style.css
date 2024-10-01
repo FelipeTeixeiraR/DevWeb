@@ -141,7 +141,7 @@ body{
     z-index: 1;
     position: absolute;
     width: 1000px;
-    height: 800px;
+    height: 1135px;
     background-color: #ffffffab;
     margin-top: 15%;
     border-radius: 10px;
@@ -155,16 +155,16 @@ body{
     width: 18%;
     left: 50%; 
     transform: translateX(-50%);
-    margin-top: 88%;
+    margin-top: 10%;
     
 }
 #CSSBox{
     z-index: 1;
     position: absolute;
     width: 1000px;
-    height: 800px;
+    height: 1100px;
     background-color: #ffffffab;
-    margin-top: 100%;
+    margin-top: 20%;
     border-radius: 10px;
     left: 50%; 
     transform: translateX(-50%);
@@ -176,18 +176,69 @@ body{
     width: 18%;
     left: 50%; 
     transform: translateX(-50%);
-    margin-top: 88%;
+    margin-top: 10%;
     
 }
 #JSBox{
     z-index: 1;
     position: absolute;
     width: 1000px;
-    height: 800px;
+    height: 1570px;
     background-color: #ffffffab;
-    margin-top: 100%;
+    margin-top: 20%;
     border-radius: 10px;
     left: 50%; 
     transform: translateX(-50%);
     box-shadow: #000000  7px 5px 10px ;
+}
+#HtmlBox p, #CSSBox p {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+#HtmlBox h2, #CSSBox h2 {
+    font-family: 'Georgia', serif;
+    font-size: 24px;
+    color: #2d2d2d;
+    margin-bottom: 15px;
+    margin-left: 8px;
+}
+
+#HtmlBox ul, #CSSBox ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#HtmlBox ul li, #CSSBox ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#HtmlBox p, #CSSBox p {
+    margin-bottom: 20px;
+}
+
+#HtmlBox p strong, #CSSBox p strong {
+    font-weight: bold;
+    color: #000;
+}
+
+#HtmlBox p {
+    background-color: #f0f0f0;
+    border-radius: 0px;
+}
+
+#CSSBox p {
+    background-color: #e8f5e9;
+    
+}
+
+#HtmlBox h2:hover, #CSSBox h2:hover {
+    color: #8c52ff;
+    transition: color 0.3s ease;
+    cursor: default;
+    
 }
