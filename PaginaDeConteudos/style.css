@@ -135,7 +135,12 @@ body{
     left: 50%; 
     transform: translateX(-50%);
     margin-top: 8%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     
+}
+#HtmlImg:hover{
+    transform: translateY(-7px) translateX(-77px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 #HtmlBox{
     z-index: 1;
@@ -156,7 +161,12 @@ body{
     left: 50%; 
     transform: translateX(-50%);
     margin-top: 10%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     
+}
+#CSSImg:hover{
+    transform: translateY(-7px) translateX(-77px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 #CSSBox{
     z-index: 1;
@@ -177,7 +187,12 @@ body{
     left: 50%; 
     transform: translateX(-50%);
     margin-top: 10%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     
+}
+#JSImg:hover{
+    transform: translateY(-7px) translateX(-77px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 #JSBox{
     z-index: 1;

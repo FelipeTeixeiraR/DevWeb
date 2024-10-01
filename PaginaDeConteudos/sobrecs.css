@@ -69,7 +69,12 @@ body{
     transform: translateX(-50%);
     margin-top: 8%;
     border-radius: 70px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
     
+}
+#MinhaImg:hover{
+    transform: translateY(-7px) translateX(-77px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.849);
 }
 #PerfilBox{
     z-index: 1;
@@ -83,14 +88,22 @@ body{
     transform: translateX(-50%);
     box-shadow: #000000  7px 5px 10px ;
 }
+#MyName:hover{
+    transform: translateY(-7px) translateX(-140px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.849);
+    cursor: default;
+   
+}
 #MyName{
+    
     background-color: rgb(86, 79, 91);
     max-width: 300px;
     border-radius: 13px;
-    margin-top: 55px;
+    margin-top: 63px;
     text-align: center;
     margin-left: 50%; 
     transform: translateX(-50%);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 #MBio{
     background-color: white;
