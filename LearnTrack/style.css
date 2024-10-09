@@ -146,7 +146,7 @@ body{
     z-index: 1;
     position: absolute;
     width: 1000px;
-    height: 1135px;
+    height: 1235px;
     background-color: #ffffffab;
     margin-top: 15%;
     border-radius: 10px;
@@ -256,4 +256,7 @@ body{
     transition: color 0.3s ease;
     cursor: default;
     
+}
+#cont{
+    position: absolute;
 }
