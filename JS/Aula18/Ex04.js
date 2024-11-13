@@ -11,4 +11,4 @@ while(true){
    
 }
 let mfrutas = document.getElementById("frutas")
-mfrutas.innerHTML = (lfrutas)
+mfrutas.innerHTML = (lfrutas) 
